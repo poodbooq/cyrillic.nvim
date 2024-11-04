@@ -11,9 +11,10 @@ Besides all it adds a support for [which-key.nvim](https://github.com/folke/whic
 ## Installation
 
 - [Lazy.nvim](https://github.com/folke/lazy.nvim)
+
 ```lua
 {
-  'nativerv/cyrillic.nvim',
+  'poodbooq/cyrillic.nvim',
   event = { 'VeryLazy' },
   config = function()
     require('cyrillic').setup({
